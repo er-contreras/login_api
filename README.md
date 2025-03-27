@@ -1,24 +1,23 @@
-# README
+## LOGIN_API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## BUILD WITH DOCKER
 
-Things you may want to cover:
+- This project was built in a Linux System, so take in count
+that the Makefile uses `sudo` to run docker compose command. 
+Adjust it if you use another OS.
 
-* Ruby version
+## The next are ENV require for running the project
+ Create an .env file in the root directory and add the next.
 
-* System dependencies
+ - DATABASE_HOST=db
+ - DATABASE_USERNAME=postgres
+ - DATABASE_PASSWORD=postgres
 
-* Configuration
+ * This are for development proccess so the app is not in danger.
 
-* Database creation
+## Type the next commands to build, up and down the project in your system.
+ - `make build`
+ - `make up`
+ - `make down`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    
