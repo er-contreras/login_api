@@ -13,6 +13,8 @@ Adjust it if you use another OS.
  - DATABASE_USERNAME=postgres
  - DATABASE_PASSWORD=postgres
 
+ It was DATABASE_HOST as db because that define we are connecting to docker database called 'db'
+
  * This are for development proccess so the app is not in danger.
 
 ## Type the next commands to build, up and down the project in your system.
