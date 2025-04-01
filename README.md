@@ -18,8 +18,9 @@ Adjust it if you use another OS.
  * This are for development proccess so the app is not in danger.
 
 ## Type the next commands to build, up and down the project in your system.
- - `make build`
- - `make up`
- - `make down`
+ - `rake dbuild`
+ - `rake up`
+ - `rake down`
+ - `rake rspec`
 
     
