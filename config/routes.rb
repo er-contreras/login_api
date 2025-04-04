@@ -9,5 +9,9 @@ Rails.application.routes.draw do
   # root "posts#index"
   # get "/users", to: "users#index"
 
-  resources :users
+  namespace :api do
+    namespace :v1 do
+      resources :users, only: [ :index ]
+    end
+  end
 end
