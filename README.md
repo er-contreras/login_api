@@ -1,12 +1,7 @@
 ## LOGIN_API
 
-## BUILD WITH DOCKER
 
-- This project was built in a Linux System, so take in count
-that the Makefile uses `sudo` to run docker compose command. 
-Adjust it if you use another OS.
-
-## The next are ENV require for running the project
+### The next are ENV require for running the project
  Create an .env file in the root directory and add the next.
 
  - DATABASE_HOST=db
@@ -17,8 +12,14 @@ Adjust it if you use another OS.
 
  * This are for development proccess so the app is not in danger.
 
-## Type the next commands to build, up and down the project in your system.
- - `rake dbuild`
+
+## BUILD WITH DOCKER
+
+### Type the next commands to build, up and down the project in your system.
+
+* rake doesn't work until docker has built and install all the dependencies. So,
+use `docker compose build` instead to build the image.
+
  - `rake up`
  - `rake down`
  - `rake rspec`
