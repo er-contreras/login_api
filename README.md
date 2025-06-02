@@ -14,6 +14,9 @@
 ### For linux users you can avoid type sudo in docker.
 `sudo usermod -aG docker $USER`
 
+### Create database
+ - `make create`
+
 ### Type the next commands to build, up and down the project in your system.
 
 * rake doesn't work until docker has built and install all the dependencies. So,
@@ -23,7 +26,5 @@ use `docker compose build` instead to build the image.
  - `make down`
  - `make rspec`
  - `make console`
- - `make create`
  - `make migrate`
-
-    
+   
