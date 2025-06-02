@@ -16,4 +16,4 @@ console:
 	docker compose run --rm web rails c
 
 rspec:
-	cocker compose run --rm web rails rspec
+	docker compose run --rm web rspec
